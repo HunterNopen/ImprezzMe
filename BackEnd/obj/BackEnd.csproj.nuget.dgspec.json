@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\ImprezzMe\\BackEnd\\BackEnd.csproj": {}
+    "D:\\C#\\ImprezzMe\\Backend\\BackEnd.csproj": {}
   },
   "projects": {
-    "D:\\C#\\ImprezzMe\\BackEnd\\BackEnd.csproj": {
+    "D:\\C#\\ImprezzMe\\Backend\\BackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\ImprezzMe\\BackEnd\\BackEnd.csproj",
+        "projectUniqueName": "D:\\C#\\ImprezzMe\\Backend\\BackEnd.csproj",
         "projectName": "BackEnd",
-        "projectPath": "D:\\C#\\ImprezzMe\\BackEnd\\BackEnd.csproj",
+        "projectPath": "D:\\C#\\ImprezzMe\\Backend\\BackEnd.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\ImprezzMe\\BackEnd\\obj\\",
+        "outputPath": "D:\\C#\\ImprezzMe\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             }
           },
           "imports": [
