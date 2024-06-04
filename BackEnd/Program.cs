@@ -1,4 +1,6 @@
-using BackEnd.Services.Interfaces;
+using BackEnd.Data;
+using BackEnd.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace BackEnd
 {
@@ -8,14 +10,14 @@ namespace BackEnd
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddTransient<IAuthService>();
+            builder.Services.AddDbContext<DataContext>(options =>
+            options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+            new MySqlServerVersion(new Version(8, 0, 23))));
 
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Environment.EnvironmentName = "Development";
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
@@ -24,11 +26,18 @@ namespace BackEnd
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-            app.UseAuthentication();
-            app.UseAuthorization();
+            //app.UseHttpsRedirection();
+            //app.UseAuthentication();
+            //app.UseAuthorization();
 
-            app.MapControllers();
+            app.MapGet("/", () => "Hello World!");
+
+            app.MapPost("/userCreate", async (User user, DataContext db) =>
+            {
+                db.Add(user);
+                db.SaveChanges();
+                return user;
+            });
 
             app.Run();
         }
