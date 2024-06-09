@@ -1,9 +1,11 @@
+using BackEnd._Services.Interfaces;
 using BackEnd.Data;
-using BackEnd.Deprecated._Services.Interfaces;
 using BackEnd.Models.DTOs;
+using BackEnd.Models.Entities;
+using BackEnd.Models.Mappers;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BackEnd.Deprecated._Controllers
+namespace BackEnd._Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -11,17 +13,23 @@ namespace BackEnd.Deprecated._Controllers
     {
         private readonly DataContext context;
         private readonly IAuthService authService;
+        private readonly IMapper mapper;
 
-        public UsersController(DataContext context, IAuthService authService)
+        public UsersController(DataContext context, IMapper mapper)
         {
             this.context = context;
-            this.authService = authService;
+            this.mapper = mapper;
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult<UserDTO>> Register(RegisterDTO dto)
+        public async Task<ActionResult> Register(UserDTO register)
         {
-            throw new NotImplementedException();
+            var user = mapper.forUser().map(register);
+
+            context.Users.Add(user);
+            await context.SaveChangesAsync();
+
+            return CreatedAtAction("GetUser", new { email = user.Email }, user);
         }
 
         [HttpPost("login")]

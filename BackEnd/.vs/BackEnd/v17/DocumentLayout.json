@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "D:\\C#\\ImprezzMe\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\models\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:models\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\models\\entities\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:models\\entities\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\models\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:models\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\models\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:models\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|d:\\c#\\imprezzme\\backend\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B43574-3072-44CF-B868-6F5033E33046}|BackEnd.csproj|solutionrelative:models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA1wBwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:27:22.644Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAD8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:56:10.037Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:30:49.59Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -58,93 +108,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Data\\DataContext.cs",
-              "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA9wBQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:06:39.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Event.cs",
-              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\Event.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Event.cs",
-              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\Event.cs",
-              "RelativeToolTip": "Models\\Entities\\Event.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:13:00.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Token.cs",
-              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\Token.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Token.cs",
-              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\Token.cs",
-              "RelativeToolTip": "Models\\Entities\\Token.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:13:37.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Chat.cs",
-              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\Chat.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Chat.cs",
-              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\Chat.cs",
-              "RelativeToolTip": "Models\\Entities\\Chat.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:14:13.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCQAAAAdAAAA",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:16:05.718Z",
+              "WhenOpened": "2024-06-09T15:19:50.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "City.cs",
-              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\City.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\City.cs",
-              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\Entities\\City.cs",
-              "RelativeToolTip": "Models\\Entities\\City.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:16:49.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
               "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAIAwwDIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:18:04.773Z",
+              "WhenOpened": "2024-06-09T15:14:21.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:14:37.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:28:12.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:30:49.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\C#\\ImprezzMe\\BackEnd\\Models\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:40:12.821Z",
               "EditorCaption": ""
             }
           ]

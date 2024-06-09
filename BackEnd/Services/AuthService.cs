@@ -1,11 +1,11 @@
-﻿using BackEnd.Deprecated._Services.Interfaces;
+﻿using BackEnd._Services.Interfaces;
 using BackEnd.Models.Entities;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace BackEnd.Deprecated._Services
+namespace BackEnd.Services
 {
     public class AuthService : IAuthService
     {
@@ -22,11 +22,6 @@ namespace BackEnd.Deprecated._Services
             );
             var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
             return tokenString;
-        }
-
-        public string DoSomething(string input)
-        {
-            throw new NotImplementedException();
         }
     }
 }

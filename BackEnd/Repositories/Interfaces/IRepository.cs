@@ -1,4 +1,5 @@
 ﻿using BackEnd.Models.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace BackEnd.Repositories.Interfaces
 {
@@ -8,7 +9,7 @@ namespace BackEnd.Repositories.Interfaces
 
         Task<TEntity> GetByIdAsync(int id);
 
-        Task AddAsync(TEntity entity);
+        Task<int> AddAsync(TEntity entity);
 
         void Delete(TEntity entity);
 

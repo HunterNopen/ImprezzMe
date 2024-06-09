@@ -16,6 +16,8 @@ namespace BackEnd.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+
             modelBuilder.Entity<User>()
                 .HasOne(u => u.City)
                 .WithMany(c => c.Users);

@@ -1,6 +1,12 @@
+using BackEnd._Services.Interfaces;
 using BackEnd.Data;
+using BackEnd.Models.DTOs;
 using BackEnd.Models.Entities;
+using BackEnd.Models.Mappers;
+using BackEnd.Services;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace BackEnd
 {
@@ -10,12 +16,19 @@ namespace BackEnd
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddControllers();
+
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<DataContext>(options =>
-            options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
-            new MySqlServerVersion(new Version(8, 0, 23))));
+            options.UseMySql(connectionString,
+            ServerVersion.AutoDetect(connectionString)));
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddTransient<IAuthService, AuthService>();
+            InjectMappers(builder.Services);
 
             builder.Environment.EnvironmentName = "Development";
             var app = builder.Build();
@@ -26,20 +39,21 @@ namespace BackEnd
                 app.UseSwaggerUI();
             }
 
-            //app.UseHttpsRedirection();
-            //app.UseAuthentication();
-            //app.UseAuthorization();
+            app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseAuthorization();
+            app.MapControllers();
 
             app.MapGet("/", () => "Hello World!");
 
-            app.MapPost("/userCreate", async (User user, DataContext db) =>
-            {
-                db.Add(user);
-                db.SaveChanges();
-                return user;
-            });
-
             app.Run();
+        }
+
+        private static void InjectMappers(IServiceCollection serviceProvider)
+        {
+            serviceProvider.AddScoped<IMap<UserDTO, User>, UserMapper>();
+
+            serviceProvider.AddScoped<IMapper, Mapper>();
         }
     }
 }

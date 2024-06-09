@@ -1,6 +1,8 @@
 ﻿using BackEnd.Data;
 using BackEnd.Models.Entities;
 using BackEnd.Repositories.Interfaces;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 
 namespace BackEnd.Repositories
 {
@@ -13,9 +15,12 @@ namespace BackEnd.Repositories
             this.context = context;
         }
 
-        public Task AddAsync(User entity)
+        public async Task<int> AddAsync(User entity)
         {
-            throw new NotImplementedException();
+            var user = await context.AddAsync<User>(entity);
+            await context.SaveChangesAsync();
+
+            return user.Entity.Id;
         }
 
         public void Delete(User entity)
@@ -36,6 +41,16 @@ namespace BackEnd.Repositories
         public Task<User> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task<User?> GetByEmailAsync(string email)
+        {
+            return await context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        }
+
+        public async Task<User?> GetByUsernameAsync(string username)
+        {
+            return await context.Users.FirstOrDefaultAsync(u => u.Username == username);
         }
 
         public void Update(User entity)

@@ -1,9 +1,11 @@
-﻿namespace BackEnd.Models.DTOs
+﻿using BackEnd.Models.Entities;
+
+namespace BackEnd.Models.DTOs
 {
     public class UserDTO
     {
-        public string Login { get; set; }
+        public string Username { get; set; }
         public string Email { get; set; }
-        public string City { get; set; }
+        public City? City { get; set; }
     }
 }
